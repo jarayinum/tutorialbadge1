@@ -1,0 +1,23 @@
+.heading {
+    color: chocolate;
+}
+
+.paragraph {
+    color: #000000;
+    font-size: 25px;
+}
+
+#mainHeading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.divisions {
+    background-color: aquamarine;
+    padding: 2px;
+}
+
+.maindiv {
+    background-color: bisque;
+    padding: 70px;
+    display: flex;
+}
