@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume | Sanjeeviraj V – Full Stack Developer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background-color: #f8f9fa;
+        font-family: "Segoe UI", sans-serif;
+      }
+
+      .resume-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        min-height: 100vh;
+      }
+
+      /* Left side (Profile section) */
+      .sidebar {
+        background-color: #ffffff;
+        border-right: 2px solid #dee2e6;
+        padding: 20px;
+        width: 30%;
+        min-width: 280px;
+      }
+
+      .profile-img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+      }
+
+      .sidebar h3,
+      .sidebar h5 {
+        color: #0d6efd;
+        font-weight: 600;
+      }
+
+      /* Right side (Main content) */
+      .content {
+        flex-grow: 1;
+        padding: 20px 30px;
+        background-color: #ffffff;
+      }
+
+      h3 {
+        color: #0d6efd;
+        font-size: 1.3rem;
+        margin-top: 1.2rem;
+      }
+
+      p,
+      li {
+        font-size: 0.95rem;
+        margin-bottom: 0.4rem;
+      }
+
+      ul {
+        margin-top: 0.5rem;
+        margin-left: 1.2rem;
+      }
+
+      hr {
+        border: 1px solid #dee2e6;
+      }
+
+      /* Ensure same layout on mobile */
+      @media (max-width: 768px) {
+        .resume-container {
+          flex-direction: row; /* Keep same two-column layout */
+          flex-wrap: wrap;
+        }
+
+        .sidebar {
+          width: 40%;
+          min-width: 220px;
+        }
+
+        .content {
+          width: 60%;
+          padding: 15px;
+        }
+
+        h3 {
+          font-size: 1.1rem;
+        }
+
+        p,
+        li {
+          font-size: 0.9rem;
+        }
+      }
+
+      @media (max-width: 500px) {
+        .sidebar {
+          width: 45%;
+          padding: 10px;
+        }
+        .content {
+          width: 55%;
+          padding: 10px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="resume-container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <img
+          src="images/sanjeevpic.jpg"
+          alt="Profile photo of Sanjeeviraj V"
+          class="profile-img img-thumbnail"
+        />
+        <h3><i>SANJEEVIRAJ V</i></h3>
+        <p>Motivated Software Developer</p>
+
+        <section>
+          <h5>Contact</h5>
+          <p><strong>Phone:</strong> +91 7358992049</p>
+          <p><strong>Email:</strong> sanjeeviraj2607@gmail.com</p>
+          <p><strong>Instagram:</strong> sanjxxv_26</p>
+        </section>
+
+        <section>
+          <h5>Personal Info</h5>
+          <p><strong>D.O.B:</strong> 26.07.2003</p>
+          <p><strong>Nationality:</strong> Indian</p>
+          <p><strong>Gender:</strong> Male</p>
+          <p><strong>Marital Status:</strong> Single</p>
+        </section>
+
+        <section>
+          <h5>Languages</h5>
+          <p>Tamil – Speak, Read, and Write</p>
+          <p>English – Speak, Read, and Write</p>
+        </section>
+
+        <section>
+          <h5>Hobbies</h5>
+          <p>Handball, Kabaddi</p>
+        </section>
+      </aside>
+
+      <!-- Main content -->
+      <main class="content">
+        <section>
+          <h3>Career Objective</h3>
+          <p>
+            To obtain a challenging position as a Full Stack Developer where I
+            can utilize my technical skills in front-end and back-end
+            development to contribute to innovative software solutions while
+            continuing to grow and learn in a dynamic work environment.
+          </p>
+        </section>
+
+        <section>
+          <h3>Academic Record</h3>
+          <p><strong>Graduation (6.8 CGPA)</strong></p>
+          <p>Karpagam Academy of Higher Education, Coimbatore</p>
+          <hr />
+          <p><strong>H.S.C (75.5%)</strong></p>
+          <p>SRV Excel Matric Higher Secondary School, Namakkal</p>
+          <hr />
+          <p><strong>S.S.L.C (68%)</strong></p>
+          <p>SRV Excel Matric Higher Secondary School, Namakkal</p>
+        </section>
+
+        <section>
+          <h3>Project Details</h3>
+          <p><strong>Title:</strong> Online Shopping Portal</p>
+          <p>
+            <strong>Technologies:</strong> HTML, CSS, JavaScript, React.js,
+            Node.js, Express.js, MongoDB
+          </p>
+          <p>
+            <strong>Description:</strong> A full-stack e-commerce web
+            application for browsing products, adding items to cart, and placing
+            orders.
+          </p>
+          <ul>
+            <li>Designed responsive front-end using React and Bootstrap 5</li>
+            <li>
+              Developed REST APIs for product management and authentication
+            </li>
+            <li>Integrated MongoDB for storing product and order data</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Internship & Workshop</h3>
+          <p><strong>Internship:</strong> Web Development Intern</p>
+          <p>
+            <strong>Company:</strong> TechGrow Academy (Online Internship
+            Program)
+          </p>
+          <p><strong>Duration:</strong> Jan 2024 – Mar 2024</p>
+          <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Bootstrap</p>
+        </section>
+
+        <section>
+          <h3>Areas of Interest</h3>
+          <ul>
+            <li>Web Application Development</li>
+            <li>Front-End Development (React.js, Angular)</li>
+            <li>Back-End Development (Node.js, Express.js)</li>
+            <li>Database Management (MongoDB, MySQL)</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Declaration</h3>
+          <p>
+            I hereby declare that the information provided above is true and
+            correct to the best of my knowledge and belief.
+          </p>
+        </section>
+      </main>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
