@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color:rgb(255, 255, 255);
+  color: #302f2f;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  width: 900px;
+  background: rgb(255, 255, 255);
+}
+
+.left {
+  width: 30%;
+  background-color: #dee4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+ 
+}
+
+.left h2 {
+  color: #003283;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.left h3 {
+  color: #0a3d91;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.left p {
+  text-align: left;
+  line-height: 1.5;
+}
+
+.right {
+  width: 80%;
+  padding: 30px;
+}
+
+.right h2 {
+  color: #3464b1;
+  margin-bottom: 10px;
+}
+
+.right section {
+  margin-bottom: 25px;
+}
+
+.right p, .right ul {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.right ul {
+  margin-left: 20px;
+  
+}
