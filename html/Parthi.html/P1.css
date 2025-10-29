@@ -6,24 +6,24 @@
 }
 
 body {
-  background-color:rgb(255, 255, 255);
+  background-color:rgb(245, 248, 248);
   color: #302f2f;
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 50px;
 }
 
 .container {
   display: flex;
-  width: 900px;
-  background: rgb(255, 255, 255);
+  width: 1000px;
+  background: rgb(182, 135, 135);
 }
 
 .left {
-  width: 30%;
+  width: 40%;
   background-color: #dee4f4;
-  padding: 20px;
-  text-align: center;
+  padding: 30px;
+  text-align:left;
 }
 
 .profile img {
