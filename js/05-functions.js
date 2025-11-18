@@ -6,6 +6,17 @@
 // FUNCTION DECLARATION
 // ============================================
 
+function calculator(firstValue, secondValue,operation) {
+  let c = firstValue + secondValue;
+  console.log(SUM:${c});
+}
+
+add(10,2,"multiple")
+
+
+
+
+
 function greet(name) {
     return `Hello, ${name}!`;
 }

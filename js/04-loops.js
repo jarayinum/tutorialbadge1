@@ -122,9 +122,9 @@ for (let i = 0; i < 10; i++) {
 
 console.log("=== NESTED LOOPS ===");
 for (let i = 1; i <= 3; i++) {
-    for (let j = 1; j <= 3; j++) {
-        console.log(`i=${i}, j=${j}`);
-    }
+  for (let j = 1; j <= 3; j++) {
+    console.log(`i=${i}, j=${j}`);
+  }
 }
 
 // Multiplication table example

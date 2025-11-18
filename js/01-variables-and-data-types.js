@@ -13,7 +13,7 @@ console.log(changeableVariable);
 
 // CONST - Block scoped (cannot be reassigned)
 const constantVariable = "I cannot change";
-// constantVariable = "Error!"; // This would cause an error
+// constantVa riable = "Error!"; // This would cause an error
 console.log(constantVariable);
 
 // ============================================
