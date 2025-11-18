@@ -72,11 +72,11 @@ console.log("Includes Eve:", names.includes("Eve")); // false
 
 // find - find first element matching condition
 let numbers = [1, 2, 3, 4, 5, 6];
-let found = numbers.find(num => num > 3);
+let found = numbers.find((num) => num > 3);
 console.log("Found:", found); // 4
 
 // findIndex - find index of first matching element
-let index = numbers.findIndex(num => num > 3);
+let index = numbers.findIndex((num) => num > 3);
 console.log("Found index:", index); // 3
 
 // ============================================
@@ -88,17 +88,17 @@ let nums = [1, 2, 3, 4, 5];
 // forEach - execute function for each element
 console.log("=== forEach ===");
 nums.forEach((num, index) => {
-    console.log(`Index ${index}: ${num}`);
+  console.log(`Index ${index}: ${num}`);
 });
 
 // map - create new array with transformed values
 console.log("=== map ===");
-let doubled = nums.map(num => num * 2);
+let doubled = nums.map((num) => num * 2);
 console.log("Doubled:", doubled); // [2, 4, 6, 8, 10]
 
 // filter - create new array with filtered elements
 console.log("=== filter ===");
-let evens = nums.filter(num => num % 2 === 0);
+let evens = nums.filter((num) => num % 2 === 0);
 console.log("Evens:", evens); // [2, 4]
 
 // reduce - reduce array to single value
@@ -148,11 +148,11 @@ console.log("After splice:", arr2); // [1, 2, "a", "b", 5]
 let testArr = [1, 2, 3, 4, 5];
 
 // every - check if all elements pass test
-let allPositive = testArr.every(num => num > 0);
+let allPositive = testArr.every((num) => num > 0);
 console.log("All positive:", allPositive); // true
 
 // some - check if any element passes test
-let hasEven = testArr.some(num => num % 2 === 0);
+let hasEven = testArr.some((num) => num % 2 === 0);
 console.log("Has even:", hasEven); // true
 
 // ============================================
@@ -180,18 +180,18 @@ console.log("Joined:", sentence); // "Hello World JavaScript"
 // ============================================
 
 let matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
 ];
 
 console.log("Matrix element [1][2]:", matrix[1][2]); // 6
 
 // Accessing all elements
 matrix.forEach((row, i) => {
-    row.forEach((cell, j) => {
-        console.log(`Matrix[${i}][${j}] = ${cell}`);
-    });
+  row.forEach((cell, j) => {
+    console.log(`Matrix[${i}][${j}] = ${cell}`);
+  });
 });
 
 // ============================================
@@ -216,3 +216,14 @@ console.log("Primary:", primary, "Others:", others);
 let [color1, color2, color3, color4 = "yellow"] = colors;
 console.log("Color4:", color4); // "yellow"
 
+let a = [4, 1, 5, 2, 10, 3, 6, 9, 8];
+
+for (let i = 0; i < a.length; i++) {
+  for (let j = 1; j < a.length; j++) {
+    if (a[j] > a[i]) {
+      let temp = a[i];
+      a[i] = a[j];
+      a[j] = temp;
+    }
+  }
+}

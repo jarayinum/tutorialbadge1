@@ -99,7 +99,7 @@ console.log("Ternary result:", status); // "Adult"
 let grade = 85;
 let result = grade >= 90 ? "A" : grade >= 80 ? "B" : grade >= 70 ? "C" : "F";
 console.log("Grade:", result); // "B"
-
+ 
 // ============================================
 // NULLISH COALESCING (??)
 // ============================================
